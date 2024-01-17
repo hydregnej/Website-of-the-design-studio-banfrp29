@@ -78,7 +78,7 @@ a {
   height: 37px;
 }
 .btn:active {
-  background: #e3b87390;
+  background: #dfaf63;
 }
 .main {
   margin-top: 109px;
@@ -128,7 +128,7 @@ a {
   display: flex;
   gap: 20px;
 }
-.main__btn {
+.main__btn_width-207-height-51 {
   width: 207px;
   height: 51px;
 }
@@ -138,7 +138,7 @@ a {
   border: 1px solid #FFF;
 }
 .main__btn_transparent:active {
-  background: #00000070;
+  background: #000000;
 }
 .main__completed-projects {
   background: #131313;
@@ -146,7 +146,7 @@ a {
   display: flex;
 
 }
-.main__text-block {
+.main__text-block_margin {
   margin: 176px 50px 414px 134px;
 }
 .main__h2 {
@@ -167,8 +167,10 @@ a {
   margin-top: 34px;
   margin-bottom: 42px;
 }
-.main__h3 {
+.main__h3_color-gold {
   color: #E3B873;
+}
+.main__h3 {
   font-family: Yeseva One;
   font-size: 18px;
   font-weight: 400;
@@ -362,4 +364,77 @@ a {
 }
 .main__checkbox:checked + .main__fake::before{
   opacity: 1;
+}
+.main__types-of-repair {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+}
+.main__h3_margin-top-147-bot-13 {
+  margin: 147px 0 13px;
+}
+.main__h3 {
+}
+.main__img {
+}
+.main__img_max-width-114 {
+  max-width: 114px;
+}
+.main__img_margin-bot-31px {
+  margin-bottom: 31px;
+}
+.main__cards {
+  display: flex;
+  gap: 30px;
+
+}
+.main__card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__card-item_position-relative {
+  position: relative;
+}
+.main__text-block {
+  background-color: #fff;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.03);
+  width: 330px;
+  height: 286px;
+}
+.main__text-block_position-absolute {
+  position: absolute;
+  top: 294px;
+  z-index: 100;
+}
+.main__h3_margin-bot-13px {
+  margin-bottom: 13px;
+}
+.main__text-block_padding {
+  padding: 25px 105px 51px 32px;
+}
+.main__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main__item {
+  color: #959595;
+  font-size: 13px;
+}
+.main__btn {
+  font-family: Yeseva One;
+  font-size: 18px;
+  font-style: normal;
+  box-shadow: 5px 5px 10px 0px rgba(227, 184, 115, 0.30);
+}
+.main__btn_width-228-height-54 {
+  width: 228px;
+  height: 54px;
+}
+.main__btn_position-relative {
+  position: relative;
+  top: 30px;
+  left: -32px;
 }
