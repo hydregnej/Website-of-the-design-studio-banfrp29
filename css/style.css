@@ -17,6 +17,7 @@ a {
   /* max-width: 1263px; */
   height: 100%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .header {
@@ -480,4 +481,92 @@ a {
   position: relative;
   top: 30px;
   left: -32px;
+}
+
+.main__customer-contact {
+  display: flex;
+  background: #fff;
+  padding-top: 200px;
+}
+
+.main__customer-contact {}
+
+.color-36-36-36 {
+  color: #363636;
+}
+
+.main-text__block_flex-align-center {
+  display: flex;
+  align-items: center;
+}
+.main__customer-contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 53px;
+  padding-top: 109px;
+  margin-left: 249px;
+  margin-right: 206px;
+  position: relative;
+  z-index: 1;
+}
+.main__customer-contact-left_background-img {
+  position: absolute;
+  z-index: -1;
+  top: 1px;
+  left: -526px;
+}
+
+.main__customer-contact-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__personal-information-input-block_direction-column {
+  display: flex;
+  flex-direction: column;
+  background: #131313;
+}
+.main__personal-information-input-block_padding {
+  padding: 33px 49px 27px 49px;
+  width: 506px;
+}
+.main__input_background-13-13-13-color-fff {
+  background: #131313;
+  color: #fff;
+}
+
+.color-fff {
+  color: #FFF;
+}
+.main__button_width-213-height-51 {
+  width: 213px;
+  height: 51px;
+  align-self: flex-end;
+}
+.main__h3_font-family-nunito-text-align-center {
+  font-family: "Nunito Sans";
+  text-align: center;
+}
+
+.main__input-block {}
+
+.main__text_color-255-255-255 {
+  color: rgba(255, 255, 255, 0.50);
+}
+.main__input_color-placeholder-fff::placeholder {
+  color: #fff;
+}
+.main__input_padding-bot-9 {
+  padding-bottom: 9px;
+}
+.main__text_color-gold {
+  color: #E3B873;
+}
+.main__help-save {
+  display: flex;
+  position: relative;
+}
+.main__img-help-save {
+  position: relative;
+  top: -21px;
 }
