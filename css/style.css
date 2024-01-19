@@ -349,7 +349,7 @@ a {
 
 .main__input {
   border: none;
-  border-bottom: 1px solid rgba(54, 54, 54, 0.30);
+  border-bottom: 1px solid rgba(54, 54, 54, 0.80);
 }
 
 .main__input:focus {
@@ -368,7 +368,6 @@ a {
 .main__button {
   width: 200px;
   max-height: 51px;
-  ;
 }
 
 .main__label {
@@ -475,9 +474,17 @@ a {
   box-shadow: 5px 5px 10px 0px rgba(227, 184, 115, 0.30);
 }
 
-.main__btn_width-228-height-54 {
+.main__btn_main-cards {
   width: 228px;
   height: 54px;
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__btn_main-cards:active {
+  background: #E3B873;
 }
 
 .main__btn_position-relative {
@@ -667,21 +674,14 @@ a {
   height: 100%;
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.04);
   padding: 24px 32px 67px 20px;
-}
-
-.main__btn_our-clients {
-  width: 294px;
-  height: 54px;
   position: relative;
-  top: 93px;
-  left: -20px;
 }
 
 .main__btn_our-clients-img {
   position: absolute;
-  top: -17px;
-  left: -17px;
-
+  top: 379px;
+  left: 0px;
+  width: 293px;
 }
 
 .main__img-our-clients-sub-1 {
@@ -689,7 +689,7 @@ a {
   top: 685px;
   left: -46px;
   z-index: -1;
-  opacity: 0.02;
+  opacity: 0.04;
 }
 
 .main__img-our-clients-sub-2 {
@@ -697,5 +697,83 @@ a {
   top: 685px;
   left: 715px;
   z-index: -1;
-  opacity: 0.02;
+  opacity: 0.04;
+}
+
+.main__how-to-find-us {
+  position: relative;
+}
+
+.main__personal-information-input-block_form_questions {
+  width: 883px;
+  position: absolute;
+  top: -303px;
+  left: 240px;
+}
+
+.main__how-to-find-us-bg {
+  position: absolute;
+  top: 28px;
+  z-index: -10;
+}
+
+.main__how-to-find-us-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.88);
+  z-index: 1;
+  /* для того, чтобы картинка затемнилась */
+}
+
+.main__consent_align-center {
+  align-self: center;
+}
+
+.main__button_align-center {
+  align-self: center;
+}
+
+.main__form_questions-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "main__input-block-1 main__input-block-2"
+    "main__input-block-3 main__input-block-3";
+  padding: 0 181px 0 181px;
+}
+
+.main__input-block-1 {
+  grid-area: main__input-block-1;
+}
+
+.main__input-block-2 {
+  grid-area: main__input-block-2;
+  padding-left: 58px;
+}
+
+.main__input-block-3 {
+  grid-area: main__input-block-3;
+}
+
+.main__how-find-us {
+  padding-top: 275px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__h3_align-center {
+  text-align: center;
+}
+
+.main__social {
+  display: flex;
+  gap: 15px;
+  padding: 26px 0 44px;
 }
