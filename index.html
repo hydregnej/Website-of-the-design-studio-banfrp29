@@ -18,11 +18,11 @@
         <a href="#" class="logo header__logo">IC "Repair Design Project"</a>
         <ul class="list header__list">
           <li class="item header__item"><a href="#" class="link header__link">HOME</a></li>
-          <li class="item header__item"><a href="#" class="link header__link">PROJECTS</a></li>
-          <li class="item header__item"><a href="#" class="link header__link">MEASUREMENT</a></li>
-          <li class="item header__item"><a href="#" class="link header__link">TEAM</a></li>
-          <li class="item header__item"><a href="#" class="link header__link">REVIEWS</a></li>
-          <li class="item header__item"><a href="#" class="link header__link">CONTACTS</a></li>
+          <li class="item header__item"><a href="#main__completed-projects" class="link header__link">PROJECTS</a></li>
+          <li class="item header__item"><a href="#main__types-of-repair" class="link header__link">MEASUREMENT</a></li>
+          <li class="item header__item"><a href="#main__customer-contact" class="link header__link">TEAM</a></li>
+          <li class="item header__item"><a href="#main__our-clients" class="link header__link">REVIEWS</a></li>
+          <li class="item header__item"><a href="#main__how-find-us" class="link header__link">CONTACTS</a></li>
         </ul>
         <div class="contact-information header__contact-information">
           <a href="tel:+79287683239" class="phone header__phone">+7 (928) 768-32-39</a>
@@ -34,7 +34,8 @@
       <section class="main__introduction">
         <h1 class="main__h1">Turnkey Repair in the <br> city of <span class="main__h1_color-gold">Rostov-on-Don</span>
         </h1>
-        <p class="main__text main__text_margin main__text_line-height">Get ready-made turnkey repairs on time <br> with
+        <p class="main__text main__text_margin main__text_line-height main__text_fz-11px">Get ready-made turnkey repairs
+          on time <br> with
           work time saving up to 45 days and 20% from <br> cost of materials due to the organization of work</p>
         <div class="main__buttons">
           <button type="button" class="btn main__btn_width-207-height-51">CALCULATE THE COST</button>
@@ -42,12 +43,23 @@
             APPLICATION</button>
         </div>
       </section>
-      <section class="main__completed-projects">
+      <section id="main__completed-projects">
         <div class="main__text-block_margin">
           <h2 class="main__h2">Completed <br> projects</h2>
-          <p class="main__text main__text_margin-34-42">Only a small part of the work performed by our company is
+          <p class="main__text main__text_margin-34-42 ">Only a small part of the work performed by our company is
             presented <br> on the site. For 14 years on in the construction <br> market we have made happy more than
             1000 families</p>
+          <div class="main__slider_hidden">
+            <img src="./img/slider-hidden.jpg" alt="Slider" class="main__img">
+            <div class="main__slider_hidden-block">
+              <button class="main__slider_hidden-block-btn main__slider_hidden-block-btn-1">
+                <img src="./icons/slider-hidden-arrow-left.svg" alt="Arrow left" class="main__img main__img_arrow">
+              </button>
+              <button class="main__slider_hidden-block-btn main__slider_hidden-block-btn-2">
+                <img src="./icons/slider-hidden-arrow-right.svg" alt="Arrow right" class="main__img main__img_arrow">
+              </button>
+            </div>
+          </div>
           <div class="main__text-block_grid">
             <div class="main__text-block_1">
               <h3 class="main__h3 main__h3_color-gold">City:</h3>
@@ -102,7 +114,15 @@
             <label for="main__phone" class="main__text main__text_color-54-54-54">Phone</label>
             <input id="main__phone" placeholder="Your phone number:" class="main__input" type="tel" name="number">
           </div>
-          <button class="btn main__button">Submit</button>
+          <div class="main__consent main__consent_hidden">
+            <label for="mainCheckbox" class="main__label">
+              <input id="mainCheckbox" type="checkbox" class="main__checkbox">
+              <span id="mainCheckbox" class="main__fake"></span>
+              <p id="mainCheckbox" class="main__text main__text_color-black">I agree to the processing of personal data
+              </p>
+            </label>
+          </div>
+          <button class="btn main__button main__button_hidden">Submit</button>
         </form>
         <div class="main__consent">
           <label for="mainCheckbox" class="main__label">
@@ -113,7 +133,7 @@
           </label>
         </div>
       </section>
-      <section class="main__types-of-repair">
+      <section id="main__types-of-repair">
         <h3 class="main__h3 main__h3_margin-top-147-bot-13 main__h3_sub-title">TYPES OF REPAIR</h3>
         <img src="./icons/types-of-repair.svg" class="main__img main__img_max-width-114 main__img_margin-bot-31px"
           alt="Types of repair"></img>
@@ -122,7 +142,7 @@
             <img src="./img/types-of-repair-1.jpg" alt="Great room" class="main__img main__img_position-relative">
             <div class="main__text-block main__text-block_padding main__text-block_position-absolute">
               <h3 class="main__h3 main__h3_margin-bot-13px">Redecorating</h3>
-              <ul class="main__list">
+              <ul class="main__list main__list_decoration">
                 <li class="main__item">Dismantling of old coatings</li>
                 <li class="main__item">Wallpapering</li>
                 <li class="main__item">Painting walls and ceilings</li>
@@ -138,7 +158,7 @@
             <img src="./img/types-of-repair-2.jpg" alt="Great room" class="main__img main__img_position-relative">
             <div class="main__text-block main__text-block_padding main__text-block_position-absolute">
               <h3 class="main__h3 main__h3_margin-bot-13px">Overhaul</h3>
-              <ul class="main__list">
+              <ul class="main__list main__list_decoration">
                 <li class="main__item">Dismantling of old coatings</li>
                 <li class="main__item">Wallpapering</li>
                 <li class="main__item">Painting walls and ceilings</li>
@@ -155,7 +175,7 @@
             <img src="./img/types-of-repair-3.jpg" alt="Great room" class="main__img main__img_position-relative">
             <div class="main__text-block main__text-block_padding main__text-block_position-absolute">
               <h3 class="main__h3 main__h3_margin-bot-13px">Designer Repair</h3>
-              <ul class="main__list">
+              <ul class="main__list main__list_decoration">
                 <li class="main__item">Dismantling of old coatings</li>
                 <li class="main__item">Wallpapering</li>
                 <li class="main__item">Painting walls and ceilings</li>
@@ -170,7 +190,7 @@
           </div>
         </div>
       </section>
-      <section class="main__customer-contact">
+      <section id="main__customer-contact">
         <div class="main__customer-contact-left">
           <div class="main__customer-contact-left_background-img"><img class="main__img"
               src="./img/customer-contact.png" alt="background"></div>
@@ -269,7 +289,24 @@
             class="main__img main__img_work-examples main__img_work-examples-width-354px-height-625">
         </div>
       </section>
-      <section class="main__our-clients">
+      <div class="main__slider_hidden main__work-examples_hidden">
+        <h2 class="main__h2 main__h2_align-center">We realize your <br>
+          wildest fantasies</h2>
+        <div class="main__img-work-examples_hidden"><img src="./img/work-examples-background-hidden.jpg" alt="Slider"
+            class="main__img ">
+          <div class="main__slider_hidden-block">
+            <button
+              class="main__slider_hidden-block-btn main__slider_hidden-block-btn-1 main__slider_hidden-block-btn-1-work-examples">
+              <img src="./icons/slider-hidden-arrow-left.svg" alt="Arrow left" class="main__img main__img_arrow">
+            </button>
+            <button
+              class="main__slider_hidden-block-btn main__slider_hidden-block-btn-2 main__slider_hidden-block-btn-2-work-examples">
+              <img src="./icons/slider-hidden-arrow-right.svg" alt="Arrow right" class="main__img main__img_arrow">
+            </button>
+          </div>
+        </div>
+      </div>
+      <section id="main__our-clients">
         <h3 class="main__h3 main__h3_margin-top-147-bot-13 main__h3_sub-title">our clients</h3>
         <img src="./icons/our-clients.svg" class="main__img main__img_max-width-114 main__img_margin-bot-31px"
           alt="Our Clients">
@@ -364,6 +401,16 @@
                   class="main__input main__input_padding-bot-9 main__input_background-13-13-13-color-fff main__input_color-placeholder-fff"
                   type="text" name="question">
               </div>
+
+              <div class="main__consent main__consent_hidden">
+                <label for="mainCheckbox" class="main__label">
+                  <input id="mainCheckbox" type="checkbox" class="main__checkbox">
+                  <span id="mainCheckbox" class="main__fake"></span>
+                  <p id="mainCheckbox" class="main__text main__text_color-black">I agree to the processing of personal
+                    data
+                  </p>
+                </label>
+              </div>
             </div>
             <div class="main__consent main__consent_align-center">
               <label for="main__question-checkbox" class="main__label">
@@ -373,25 +420,27 @@
                 </p>
               </label>
             </div>
-            <button class="btn main__button main__button_width-213-height-51 main__button_align-center">Call the
-              measurer</button>
+            <button class="btn main__button main__button_width-213-height-51 main__button_align-center">SUMBIT</button>
           </form>
         </div>
-        <div class="main__how-find-us">
-          <h3 class="main__h3 main__h3_color-gold main__h3_align-center">Rostov-on-Don, Nansen St., 239 Shopping Center
-            <br>
-            Decorum Tel +7 (928) 768 32 29</h3>
-          <div class="main__social">
-            <a href="#" class="main__link"><img src="./icons/social-mail.svg" alt="icon Mail" class="main__img"></a>
-            <a href="#" class="main__link"><img src="./icons/social-instagram.svg" alt="icon Instagram"
-                class="main__img"></a>
+        <div id="main__how-find-us">
+          <div class="main__how-find-us-block">
+            <h3 class="main__h3 main__h3_color-gold main__h3_align-center">Rostov-on-Don, Nansen St., 239 Shopping
+              Center
+              <br>
+              Decorum Tel +7 (928) 768 32 29
+            </h3>
+            <div class="main__social">
+              <a href="#" class="main__link"><img src="./icons/social-mail.svg" alt="icon Mail" class="main__img"></a>
+              <a href="#" class="main__link"><img src="./icons/social-instagram.svg" alt="icon Instagram"
+                  class="main__img"></a>
+            </div>
           </div>
           <div class="main__map">
-            <img src="./img/main-map.png" alt="Map" class="main__img">
+            <img src="./img/main-map.png" alt="Map" class="main__img main__map_img">
           </div>
         </div>
       </section>
-
     </main>
     <footer class="footer">
       <nav class="nav footer__nav">
