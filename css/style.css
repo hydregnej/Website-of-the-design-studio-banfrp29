@@ -75,7 +75,7 @@ a {
   font-style: italic;
   border-radius: 2px;
   background: #E3B873;
-  box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.20);
+  box-shadow: 0 5px 15px 0 rgba(227, 184, 115, 0.20);
   border: none;
   color: #FFF;
   text-transform: uppercase;
@@ -100,7 +100,7 @@ a {
 .main__introduction {
   display: flex;
   flex-flow: column;
-  background: no-repeat 100% url(/img/main-main.jpg);
+  background: no-repeat 100% url(../img/main-main.jpg);
   color: #FFF;
   padding: 123px 0 208px 134px;
   position: relative;
@@ -121,7 +121,7 @@ a {
 }
 
 .main__h1 {
-  font-family: Yeseva One;
+  font-family: "Yeseva One", sans-serif;
   font-size: 40px;
   line-height: 132.825%;
   text-transform: uppercase;
@@ -173,7 +173,7 @@ a {
 
 .main__h2 {
   color: #E3B873;
-  font-family: Yeseva One;
+  font-family: "Yeseva One", sans-serif;
   font-size: 27px;
   font-weight: 400;
   line-height: 138.6%;
@@ -201,7 +201,7 @@ a {
 }
 
 .main__h3 {
-  font-family: Yeseva One;
+  font-family: "Yeseva One", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 138.6%;
@@ -248,7 +248,7 @@ a {
 
 .main__text-switch {
   color: rgba(255, 255, 255, 0.30);
-  font-family: Yeseva One;
+  font-family: "Yeseva One", sans-serif;
   font-size: 14px;
   line-height: 138.6%;
   text-transform: uppercase;
@@ -456,7 +456,7 @@ a {
 
 .main__text-block {
   background-color: #fff;
-  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.03);
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.03);
   width: 330px;
   height: 286px;
 }
@@ -491,10 +491,10 @@ a {
 }
 
 .main__btn {
-  font-family: Yeseva One;
+  font-family: "Yeseva One", sans-serif;
   font-size: 18px;
   font-style: normal;
-  box-shadow: 5px 5px 10px 0px rgba(227, 184, 115, 0.30);
+  box-shadow: 5px 5px 10px 0 rgba(227, 184, 115, 0.30);
 }
 
 .main__btn_main-cards {
@@ -581,7 +581,7 @@ a {
 }
 
 .main__h3_font-family-nunito-text-align-center {
-  font-family: "Nunito Sans";
+  font-family: "Nunito Sans", sans-serif;
   text-align: center;
 }
 
@@ -696,7 +696,7 @@ a {
 .main__text-block_our-clients {
   width: 376px;
   height: 100%;
-  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.04);
   padding: 24px 32px 67px 20px;
   position: relative;
 }
@@ -704,7 +704,7 @@ a {
 .main__btn_our-clients-img {
   position: absolute;
   top: 379px;
-  left: 0px;
+  left: 0;
   width: 293px;
 }
 
@@ -823,7 +823,6 @@ a {
   }
 
   .main__work-examples_hidden {
-    display: block;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -865,7 +864,7 @@ a {
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 200;
     border-radius: 50%;
-    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.09);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.09);
 
   }
 
@@ -1175,7 +1174,7 @@ a {
   }
 
   .main__introduction {
-    background: no-repeat url(/img/main-main.jpg);
+    background: no-repeat url(../img/main-main.jpg);
     padding: 165px 18px 61px;
   }
 
@@ -1203,7 +1202,7 @@ a {
   }
 
   .main__text-block_margin {
-    margin: 36px 18px 0px;
+    margin: 36px 18px 0;
   }
 
   #main__completed-projects {
@@ -1270,7 +1269,7 @@ a {
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 200;
     border-radius: 50%;
-    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.09);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.09);
 
   }
 
@@ -1287,7 +1286,7 @@ a {
   }
 
   .main__sub-title {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .main__img_margin-31 {
